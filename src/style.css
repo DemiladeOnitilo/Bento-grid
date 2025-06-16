@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.bright-purple-word{
+    color: hsl(254, 88%, 90%);
+}
+
+.bright-purple-bg{
+    background-color: hsl(254, 88%, 90%);
+}
+
+.dark-purple-word{
+    color: hsl(256, 67%, 59%);
+}
+
+.dark-purple-bg{
+    background-color: hsl(256, 67%, 59%);
+}
+
+.bright-yellow-word{
+    color: hsl(31, 66%, 93%);
+}
+
+.bright-yellow-bg{
+    background-color: hsl(31, 66%, 93%);
+}
+
+.dark-yellow-word{
+    color: hsl(39, 100%, 71%);
+}
+
+.dark-yellow-bg{
+    background-color: hsl(39, 100%, 71%);
+}
+
+.white{
+    color: hsl(0, 0%, 100%);
+}
+
+.white-bg{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.black{
+    background-color: hsl(0, 0%, 7%);
+}
