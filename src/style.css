@@ -1,49 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-body{
-    background-color: hsl(0, 0%, 95%);
+*{
+  scrollbar-width: thin;
 }
 
-.bright-purple-word{
-    color: hsl(254, 88%, 90%);
+html, body {
+  overflow-x: hidden;
+  background-color: rgb(255, 243, 243);
 }
 
-.bright-purple-bg{
-    background-color: hsl(254, 88%, 90%);
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-.dark-purple-word{
-    color: hsl(256, 67%, 59%);
+.Toastify__toast-container {
+  z-index: 9999; 
 }
 
-.dark-purple-bg{
-    background-color: hsl(256, 67%, 59%);
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev{
+background-color: white;
+height:25px;
+width: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+opacity: 0.8;
+margin: -20px;
 }
 
-.bright-yellow-word{
-    color: hsl(31, 66%, 93%);
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover
+{
+    background-color: #808080;
+    opacity:1;
 }
 
-.bright-yellow-bg{
-    background-color: hsl(31, 66%, 93%);
-}
 
-.dark-yellow-word{
-    color: hsl(39, 100%, 71%);
-}
+.slick-prev::before,.slick-next::before{
+   display:none;
+    }
 
-.dark-yellow-bg{
-    background-color: hsl(39, 100%, 71%);
-}
-
-.white{
-    color: hsl(0, 0%, 100%);
-}
-
-.white-bg{
-    background-color: hsl(0, 0%, 100%);
-}
-
-.black{
-    background-color: hsl(0, 0%, 7%);
+.arrows{
+height:40px;
+width:40px;
 }
